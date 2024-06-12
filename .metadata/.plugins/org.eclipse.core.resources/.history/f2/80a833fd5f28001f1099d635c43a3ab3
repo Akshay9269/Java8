@@ -1,0 +1,34 @@
+package javatechie;
+
+import java.util.function.Consumer;
+
+class ConsumerImpl implements Consumer<Integer>{
+	@Override
+	public void accept(Integer t) {
+		// TODO Auto-generated method stub
+		System.out.println("Printing Traditional : "+t);
+	}
+}
+
+public class ConsumerMain {
+	
+	public static void main(String[] args) {
+		
+		//Traditional Approach
+		ConsumerImpl consumerImpl=new ConsumerImpl();
+		consumerImpl.accept(10);
+		
+		//Anonymous class
+		Consumer<Integer> consumer=new Consumer<Integer>() {
+			
+			@Override
+			public void accept(Integer t) {
+				// TODO Auto-generated method stub
+				System.out.println("Printing anonymous : "+t );
+			}
+		};
+
+		consumer.accept(20);;
+	}
+
+}

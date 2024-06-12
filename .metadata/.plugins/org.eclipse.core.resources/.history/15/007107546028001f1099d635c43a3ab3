@@ -1,0 +1,41 @@
+package javatechie;
+
+import java.util.function.Consumer;
+
+class ConsumerImpl implements Consumer<Integer>{
+	@Override
+	public void accept(Integer t) {
+		System.out.println("Printing Traditional : "+t);
+	}
+}
+
+public class ConsumerMain {
+	
+	public static void main(String[] args) {
+		
+		//Traditional Approach
+		ConsumerImpl consumerImpl=new ConsumerImpl();
+		consumerImpl.accept(10);
+		
+		
+		//Anonymous class
+		Consumer<Integer> consumerAnonym=new Consumer<Integer>() {
+			
+			@Override
+			public void accept(Integer t) {
+				// TODO Auto-generated method stub
+				System.out.println("Printing anonymous : "+t );
+			}
+		};
+
+		consumerAnonym.accept(20);
+		
+		//Java8 Approach
+		Consumer<Integer> consumerJava=(t)->{
+			System.out.println("Printing Java8 : "+t);
+		};
+		
+		consumerJava.accept(30);
+	}
+
+}

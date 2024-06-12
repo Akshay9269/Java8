@@ -1,0 +1,20 @@
+package javatechie;
+
+import java.util.function.Consumer;
+
+class ConsumerImpl implements Consumer<Integer>{
+	@Override
+	public void accept(Integer t) {
+		// TODO Auto-generated method stub
+		System.out.println("Printing : "+t);
+	}
+}
+
+public class ConsumerMain {
+	
+	public static void main(String[] args) {
+		Consumer<Integer> consumer=new ConsumerImpl();
+		consumer.accept(10);;
+	}
+
+}

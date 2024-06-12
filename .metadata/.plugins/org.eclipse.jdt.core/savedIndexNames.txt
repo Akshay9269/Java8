@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+D:\Interview Preparation-2024\Practice\JAVA\Java8\.metadata\.plugins\org.eclipse.jdt.core
+4260180612.index
+4279790867.index

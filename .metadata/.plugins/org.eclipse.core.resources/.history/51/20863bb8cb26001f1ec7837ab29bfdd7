@@ -1,0 +1,27 @@
+package javatechie;
+
+@FunctionalInterface
+interface Calculator{
+	void calculate(int param);
+}
+
+class CalculatorImpl implements Calculator{
+	@Override
+	public void calculate(int param) {		
+		System.out.println("Calculate : "+param);
+	}
+}
+
+public class LambdaMain {
+	
+	public static void main(String[] args) {
+		
+		Calculator calculatorImpl=new CalculatorImpl();
+		calculatorImpl.calculate(20);
+		
+//	Calculator calculator=() -> System.out.println("Calculate");
+//	calculator.calculate();
+		
+	}
+
+}

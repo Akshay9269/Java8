@@ -1,0 +1,14 @@
+package lambdaExample;
+
+import java.util.List;
+
+public class LambdaMain {
+	
+	public static void main(String[] args) {
+		
+		List<Book> books=new BookDao().addBooks();
+		System.out.println(books);
+		
+	}
+
+}
