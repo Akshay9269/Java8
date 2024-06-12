@@ -1,4 +1,4 @@
-package javatechie;
+package consumer;
 
 import java.util.Arrays;
 import java.util.List;
@@ -11,7 +11,7 @@ class ConsumerImpl implements Consumer<Integer>{
 	}
 }
 
-public class ConsumerMain {
+public class ConsumerDemo {
 	
 	public static void main(String[] args) {
 		
