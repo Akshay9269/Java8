@@ -1,4 +1,4 @@
-package javatechie;
+package LambdaBasic;
 
 @FunctionalInterface
 interface Calculator{
