@@ -55,6 +55,14 @@ public class PedicateDemo {
 		//Using Stream
 		List<Integer> list=Arrays.asList(10,11,20,21);
 		list.stream().filter(t->t%2==0).forEach(s->System.out.println("Printing Even : "+s));
+
+		//Using Stream--Change-1
+		List<Integer> list=Arrays.asList(10,11,20,21);
+		list.stream().filter(t->t%2==0).forEach(s->System.out.println("Printing Even : "+s));
+
+		//Using Stream--Change-2
+		List<Integer> list=Arrays.asList(10,11,20,21);
+		list.stream().filter(t->t%2==0).forEach(s->System.out.println("Printing Even : "+s));
 	}
 
 }
