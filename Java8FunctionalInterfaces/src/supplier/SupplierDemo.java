@@ -14,7 +14,7 @@ class SupplierImpl implements Supplier<Integer>{
 
 public class SupplierDemo {
 	public static void main(String[] args) {
-		
+		//This is supplier demo
 		//Traditional Approach
 		Supplier<Integer> supplier1=new SupplierImpl();
 		System.out.println(supplier1.get());
@@ -34,6 +34,10 @@ public class SupplierDemo {
 		System.out.println(supplier3.get());
 		
 		//Using Stream
+		List<Integer> list=Arrays.asList();
+		System.out.println(list.stream().findAny().orElseGet(supplier3));
+
+		//Changes from the master
 		List<Integer> list=Arrays.asList();
 		System.out.println(list.stream().findAny().orElseGet(supplier3));
 		
