@@ -53,8 +53,8 @@ public class ConsumerDemo {
 		//Using Stream()-Second
 		list.stream().forEach(t->System.out.println(t));
 
-		//Adding extra lines here
-		list.stream().forEach(t->System.out.println(t));
+		//Additional extra lines Adding now
+		list.stream().forEach(U->System.out.println(U));
 	}
 
 }
