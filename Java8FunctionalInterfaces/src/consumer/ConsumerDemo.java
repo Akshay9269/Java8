@@ -55,6 +55,9 @@ public class ConsumerDemo {
 		
 		//Additional extra lines Adding now
 		list.stream().forEach(U->System.out.println(U));
+
+		//Additional extra lines Adding now--Change-12
+		list.stream().forEach(S->System.out.println(S));
 	}
 
 }
