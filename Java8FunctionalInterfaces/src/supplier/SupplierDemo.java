@@ -36,6 +36,14 @@ public class SupplierDemo {
 		//Using Stream
 		List<Integer> list=Arrays.asList();
 		System.out.println(list.stream().findAny().orElseGet(supplier3));
+
+		//Using Stream--Change-1
+		List<Integer> list=Arrays.asList();
+		System.out.println(list.stream().findAny().orElseGet(supplier3));
+
+		//Using Stream--Change-2
+		List<Integer> list=Arrays.asList();
+		System.out.println(list.stream().findAny().orElseGet(supplier3));
 		
 	}
 
