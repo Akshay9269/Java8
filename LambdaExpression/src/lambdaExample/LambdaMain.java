@@ -38,4 +38,10 @@ class Mycomparator implements Comparator<Book>{
 		// TODO Auto-generated method stub
 		return o1.getName().compareTo(o2.getName());
 	}
+
+	@Override
+	public int compare(Book o1, Book o2,Book o3) {
+		// TODO Auto-generated method stub
+		return o1.getName().compareTo(o2.getName());
+	}
 }
