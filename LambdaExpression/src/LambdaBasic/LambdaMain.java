@@ -18,6 +18,17 @@ class CalculatorImpl implements Calculator{
 			return param2-param1;
 		}	
 }
+
+	@Override
+	public int calculate(int param1,int param2) {	
+		if(param1>param2) {
+			throw new RuntimeException();
+		}
+		else
+		{
+			return param2-param1;
+		}	
+}
 }
 
 public class LambdaMain {
@@ -36,6 +47,16 @@ public class LambdaMain {
 		//Calculator calculator= (param) -> System.out.println("Calculate : "+param);
 		//calculator.calculate(30);
 		
+		//Java8 Approach(With 2 Parameters)
+		Calculator calculator=(param1,param2)->{
+			if(param1>param2) {
+				throw new RuntimeException();
+			}else {
+			 return param2-param1;
+			}
+			};
+		System.out.println(calculator.calculate(30, 40));
+
 		//Java8 Approach(With 2 Parameters)
 		Calculator calculator=(param1,param2)->{
 			if(param1>param2) {
