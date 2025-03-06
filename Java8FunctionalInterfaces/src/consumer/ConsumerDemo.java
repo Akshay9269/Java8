@@ -55,7 +55,23 @@ public class ConsumerDemo {
 
 		//Using Stream()-Change-92
 		list.stream().forEach(f->System.out.println(f));
-	}
+
+		//Additional extra lines Adding now
+		list.stream().forEach(U->System.out.println(U));
+
+
+		//Additional extra lines Adding now--Change-12
+		list.stream().forEach(S->System.out.println(S));
+
+		//Additional extra lines Adding now--Change-1
+		list.stream().forEach(U->System.out.println(U));
+
+		//Additional extra lines Adding now---Change-2
+		list.stream().forEach(U->System.out.println(U));
+
+
+
+    }
 
 }
 
