@@ -69,6 +69,9 @@ public class ConsumerDemo {
 		//Developing one feature
 		System.out.println("Developed Code");
 
+		//master change 1.2
+		list.stream().forEach(U->System.out.println(U));
+
 		//Additional extra lines Adding now---Change-2
 		list.stream().forEach(U->System.out.println(U));
 
