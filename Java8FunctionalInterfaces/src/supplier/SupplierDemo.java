@@ -37,6 +37,13 @@ public class SupplierDemo {
 		List<Integer> list=Arrays.asList();
 		System.out.println(list.stream().findAny().orElseGet(supplier3));
 
+		//Master change 1.0
+		List<Integer> list=Arrays.asList();
+		System.out.println(list.stream().findAny().orElseGet(supplier3));
+
+		List<Integer> list=Arrays.asList();
+		System.out.println(list.stream().findAny().orElseGet(supplier3));
+		
 		//Changes from the master
 		List<Integer> list=Arrays.asList();
 		System.out.println(list.stream().findAny().orElseGet(supplier3));
