@@ -72,6 +72,13 @@ public class PedicateDemo {
 		List<Integer> list=Arrays.asList(10,11,20,21);
 		list.stream().filter(t->t%2==0).forEach(s->System.out.println("Printing Even : "+s));
 
+		//master change
+		List<Integer> list=Arrays.asList(30,16,25,20);
+		list.stream().filter(t->t%2==0).forEach(s->System.out.println("Printing Odd : "+s));
+
+		List<Integer> list=Arrays.asList(10,11,20,21);
+		list.stream().filter(t->t%2==0).forEach(s->System.out.println("Printing Even : "+s));
+
 		//Developed Code
 
 		if (t % 2 == 0) {
