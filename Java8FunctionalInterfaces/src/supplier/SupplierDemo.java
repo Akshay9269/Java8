@@ -49,8 +49,12 @@ public class SupplierDemo {
 		List<Integer> list=Arrays.asList();
 		System.out.println(list.stream().findAny().orElseGet(supplier3));
 
+	}
 
-
+	//Developed Code
+	public Static Integer get() {
+		// TODO Auto-generated method stub
+		return 20;
 	}
 
 }
