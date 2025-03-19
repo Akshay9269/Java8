@@ -19,7 +19,7 @@ public class ConsumerDemo {
 		ConsumerImpl consumerImpl=new ConsumerImpl();
 		consumerImpl.accept(10);
 		
-		
+		//comment git
 		//Anonymous class
 		Consumer<Integer> consumerAnonym=new Consumer<Integer>() {
 			
