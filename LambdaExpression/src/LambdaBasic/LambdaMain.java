@@ -66,7 +66,7 @@ public class LambdaMain {
 			}
 			};
 		System.out.println(calculator.calculate(30, 40, 90));
-
+		System.out.println(calculator.calculate(30, 40, 90));
 	}
 
 }
